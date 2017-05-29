@@ -1,5 +1,6 @@
 #include "homebudgetapp.h"
 #include "ui_homebudgetapp.h"
+#include <QDebug>
 
 HomeBudgetApp::HomeBudgetApp(QWidget *parent) :
     QMainWindow(parent),
@@ -10,5 +11,6 @@ HomeBudgetApp::HomeBudgetApp(QWidget *parent) :
 
 HomeBudgetApp::~HomeBudgetApp()
 {
+    qDebug() << "hellllo";
     delete ui;
 }

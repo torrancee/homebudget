@@ -25,10 +25,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        homebudgetapp.cpp
+        homebudgetapp.cpp \
+    login.cpp
 
 HEADERS += \
-        homebudgetapp.h
+        homebudgetapp.h \
+    login.h
 
 FORMS += \
-        homebudgetapp.ui
+        homebudgetapp.ui \
+    login.ui
